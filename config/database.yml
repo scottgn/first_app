@@ -20,6 +20,8 @@ test:
 
 production:
   adapter: postgresql
-  database: HEROKU_POSTGRESQL_IVORY_URL
+  encoding: unicode
+  database: 
   pool: 5
   timeout: 5000
+  password:
